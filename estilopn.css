@@ -1,0 +1,135 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+  
+  }
+
+  #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    padding: 0;
+    background: grey;
+  }
+
+  .perfil{
+    background-color: black;
+    padding: 2px;
+  }
+  .perfil img {
+    margin: 10px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+    border-radius: 50%;
+  }
+
+  .perfil h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    text-align-last: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  #header .perfil h1 a,
+#header .perfil h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+ 
+  
+  /* Cierro perfil*/
+
+/* Empieza nav */
+
+.nav-menu {
+  padding: 30px 0 0 0;
+}
+
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu >ul>li {
+  position: relative;
+  white-space:nowrap;
+  
+}
+
+.nav-menu a{
+  display: flex;
+  align-items: center;
+  color: #a8a9b4;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 25px;
+  
+}
+
+.nav-menu a:hover,
+.nav-menu .activ,
+.nav-menu .activ:focus,
+.nav-menu li:hover>a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-menu a:hover i,
+.nav-menu .activ i,
+.nav-menu .activ:focus i,
+.nav-menu li:hover>a i {
+  color: #149ddd;
+}
+
+/* Inicio container */
+
+.inicio-container {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 75%;
+  left: 22.5%;
+  background: wheat;
+  padding: 10px 25px;
+  
+ }
+
+ .personal {
+  display: flex;
+  align-items: center;
+  color: #a8a9b4;
+  padding: 8px 15px;
+  font-size: 15px;
+ }
+
+ .titulo-div h1,
+ .titulo-div h2{
+  font-size: 30px;
+  color: #a8a9b4;
+}
+
+#footer p {
+  font-family: "Roboto";
+  padding-left: 5px;
+}
+
+footer {
+  padding: 0 2px;
+color: #f4f6fd;
+font-size: 14px;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 300px;
+z-index: 9999;
+background: #040b14;
+}
